@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViwController.h
 //  BaseMapProject
 //
 //  Created by AutoNavi on 6/22/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
 @end

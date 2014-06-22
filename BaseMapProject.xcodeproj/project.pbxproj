@@ -13,14 +13,15 @@
 		1CB62DF61956F2E2000FE511 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CB62DF41956F2E2000FE511 /* InfoPlist.strings */; };
 		1CB62DF81956F2E2000FE511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB62DF71956F2E2000FE511 /* main.m */; };
 		1CB62DFC1956F2E2000FE511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB62DFB1956F2E2000FE511 /* AppDelegate.m */; };
-		1CB62DFF1956F2E2000FE511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB62DFD1956F2E2000FE511 /* Main.storyboard */; };
-		1CB62E021956F2E2000FE511 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB62E011956F2E2000FE511 /* ViewController.m */; };
 		1CB62E041956F2E2000FE511 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB62E031956F2E2000FE511 /* Images.xcassets */; };
 		1CB62E0B1956F2E2000FE511 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB62E0A1956F2E2000FE511 /* XCTest.framework */; };
 		1CB62E0C1956F2E2000FE511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB62DEB1956F2E2000FE511 /* Foundation.framework */; };
 		1CB62E0D1956F2E2000FE511 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB62DEF1956F2E2000FE511 /* UIKit.framework */; };
 		1CB62E151956F2E3000FE511 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CB62E131956F2E3000FE511 /* InfoPlist.strings */; };
 		1CB62E171956F2E3000FE511 /* BaseMapProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB62E161956F2E3000FE511 /* BaseMapProjectTests.m */; };
+		1CB62E231956F3B3000FE511 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB62E221956F3B3000FE511 /* CoreLocation.framework */; };
+		1CB62E261956F44E000FE511 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB62E251956F44E000FE511 /* RootViewController.m */; };
+		1CB62E291957006F000FE511 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB62E201956F3AB000FE511 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +45,16 @@
 		1CB62DF91956F2E2000FE511 /* BaseMapProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseMapProject-Prefix.pch"; sourceTree = "<group>"; };
 		1CB62DFA1956F2E2000FE511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CB62DFB1956F2E2000FE511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1CB62DFE1956F2E2000FE511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1CB62E001956F2E2000FE511 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1CB62E011956F2E2000FE511 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1CB62E031956F2E2000FE511 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1CB62E091956F2E2000FE511 /* BaseMapProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseMapProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB62E0A1956F2E2000FE511 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1CB62E121956F2E3000FE511 /* BaseMapProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaseMapProjectTests-Info.plist"; sourceTree = "<group>"; };
 		1CB62E141956F2E3000FE511 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CB62E161956F2E3000FE511 /* BaseMapProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMapProjectTests.m; sourceTree = "<group>"; };
+		1CB62E201956F3AB000FE511 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1CB62E221956F3B3000FE511 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1CB62E241956F44E000FE511 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1CB62E251956F44E000FE511 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB62E291957006F000FE511 /* MapKit.framework in Frameworks */,
+				1CB62E231956F3B3000FE511 /* CoreLocation.framework in Frameworks */,
 				1CB62DEE1956F2E2000FE511 /* CoreGraphics.framework in Frameworks */,
 				1CB62DF01956F2E2000FE511 /* UIKit.framework in Frameworks */,
 				1CB62DEC1956F2E2000FE511 /* Foundation.framework in Frameworks */,
@@ -101,6 +105,8 @@
 		1CB62DEA1956F2E2000FE511 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1CB62E221956F3B3000FE511 /* CoreLocation.framework */,
+				1CB62E201956F3AB000FE511 /* MapKit.framework */,
 				1CB62DEB1956F2E2000FE511 /* Foundation.framework */,
 				1CB62DED1956F2E2000FE511 /* CoreGraphics.framework */,
 				1CB62DEF1956F2E2000FE511 /* UIKit.framework */,
@@ -114,9 +120,8 @@
 			children = (
 				1CB62DFA1956F2E2000FE511 /* AppDelegate.h */,
 				1CB62DFB1956F2E2000FE511 /* AppDelegate.m */,
-				1CB62DFD1956F2E2000FE511 /* Main.storyboard */,
-				1CB62E001956F2E2000FE511 /* ViewController.h */,
-				1CB62E011956F2E2000FE511 /* ViewController.m */,
+				1CB62E241956F44E000FE511 /* RootViewController.h */,
+				1CB62E251956F44E000FE511 /* RootViewController.m */,
 				1CB62E031956F2E2000FE511 /* Images.xcassets */,
 				1CB62DF21956F2E2000FE511 /* Supporting Files */,
 			);
@@ -230,7 +235,6 @@
 			files = (
 				1CB62E041956F2E2000FE511 /* Images.xcassets in Resources */,
 				1CB62DF61956F2E2000FE511 /* InfoPlist.strings in Resources */,
-				1CB62DFF1956F2E2000FE511 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB62E021956F2E2000FE511 /* ViewController.m in Sources */,
+				1CB62E261956F44E000FE511 /* RootViewController.m in Sources */,
 				1CB62DFC1956F2E2000FE511 /* AppDelegate.m in Sources */,
 				1CB62DF81956F2E2000FE511 /* main.m in Sources */,
 			);
@@ -280,14 +284,6 @@
 				1CB62DF51956F2E2000FE511 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1CB62DFD1956F2E2000FE511 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CB62DFE1956F2E2000FE511 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		1CB62E131956F2E3000FE511 /* InfoPlist.strings */ = {
@@ -333,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +361,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -456,6 +453,7 @@
 				1CB62E1C1956F2E3000FE511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CB62E1D1956F2E3000FE511 /* Build configuration list for PBXNativeTarget "BaseMapProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +462,7 @@
 				1CB62E1F1956F2E3000FE511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
